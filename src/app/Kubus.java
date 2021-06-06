@@ -22,6 +22,7 @@ public class Kubus {
             String yesno = Input.nextLine();
             yn = yesno.charAt(0);
         }while(yn=='y' || yn=='Y');
+        Input.close();
     }
 }
 
